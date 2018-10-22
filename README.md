@@ -1,10 +1,10 @@
 # app-store-capstone
-Kaggle Competition 
-Google Store Predictive Analysis
-Purpose - Predicting How Much a Customer Would Spend at a GStore
+## Kaggle Competition 
+## Google Store Predictive Analysis
+### Purpose - Predicting How Much a Customer Would Spend at a GStore
 
 
-Table of contents
+### Table of contents
 1. Capstone Decision
 2. Problem Statement and Basic EDA
 3. Extensive EDA
