@@ -25,4 +25,4 @@ Intend we tried predicting on all remaining columns both numerical and categoric
 - Although we are scoring at 99% on some of our models, we realize that there is still room for improvement on our model.
 
 ## Take Away
-### We could potentially use this model to predict how much a customer will spend on any ecommerce store with similar data collection.
+### - We could potentially use this model to predict how much a customer will spend on any ecommerce store with similar data collection.
