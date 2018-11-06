@@ -16,9 +16,9 @@ In this competition, We are challenged to analyze a Google Merchandise Store (al
 ### Summary
 - We began with trying to predict the how much customers will spend at a gStore.
 - We analyze our data, performed some EDA and dropped the necessary columns.
-- We then tried predicting on just on numerical columns and found that to be adequately lacking.
-Intend we tried predicting on all remaining columns both numerical and categorical coloumns and found that our model performed much better. 
-- Although we are scoring at 99% on some of our models, we realize that there is still room for improvement on our model.
+- We tried predicting just on numerical columns and found that to be adequately lacking;
+so, we then tried predicting on all remaining columns, both numerical and categorical coloumns, and found that our model performed much better. 
+- Though we are scoring at 99% on some of our models, we realize that there is still room for improvement.
 
 ## Take Away
 > **We could potentially use this model to predict how much a customer will spend on any ecommerce store with similar data collection.**
