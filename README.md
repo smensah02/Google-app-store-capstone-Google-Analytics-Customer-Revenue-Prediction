@@ -1,21 +1,17 @@
 # Goggle Store Predictive Analysis 
 ## A Kaggle Challenge 
 
+### Project Description 
+The 80/20 rule has proven true for many businesses–only a small percentage of customers produce most of the revenue. As such, marketing teams are challenged to make appropriate investments in promotional strategies.
+
+RStudio, the developer of free and open tools for R and enterprise-ready products for teams to scale and share work, has partnered with Google Cloud and Kaggle to demonstrate the business impact that thorough data analysis can have.
+
+In this competition, you’re challenged to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. Hopefully, the outcome will be more actionable operational changes and a better use of marketing budgets for those companies who choose to use data analysis on top of GA data.
+
 ### Purpose - Predicting How Much a Customer Would Spend at a GStore
 
 
-### Table of contents
-1. Capstone Decision
-2. Problem Statement and Basic EDA
-3. Extensive EDA
-4. More EDA and Base Model 
-5. Modeling Using only Numerical Features
-6. Modeling Using both Numerical and Categorical Features
-7. Model Comparison
-8. Executive Report
-9. Capstone Ideas Presentation 
-10. Google Store Predictive Analysis Presentation
-11. Midway Progress Report
+
 
 ### Summary
 - We began with trying to predict the how much customers will spend at a gStore.
