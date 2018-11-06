@@ -1,4 +1,4 @@
-# app-store-capstone
+# Goggle-store-capstone
 ## Kaggle Competition 
 ## Google Store Predictive Analysis
 ### Purpose - Predicting How Much a Customer Would Spend at a GStore
