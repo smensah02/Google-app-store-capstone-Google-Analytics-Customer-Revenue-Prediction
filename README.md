@@ -1,5 +1,5 @@
 # Goggle-Store-Predictive Analysis-Capstone
-## Kaggle Competition 
+## A Kaggle Competition 
 
 ### Purpose - Predicting How Much a Customer Would Spend at a GStore
 
