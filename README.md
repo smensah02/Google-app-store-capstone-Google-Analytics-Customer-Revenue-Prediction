@@ -8,7 +8,8 @@ RStudio, the developer of free and open tools for R and enterprise-ready product
 
 In this competition, We are challenged to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. Hopefully, the outcome will be more actionable operational changes and a better use of marketing budgets for those companies who choose to use data analysis on top of GA data. https://www.kaggle.com/c/ga-customer-revenue-prediction
 
-## Problem Statement - Predicting How Much a Customer Would Spend at a GStore
+## Problem Statement 
+Predicting How Much a Customer Would Spend at a GStore. With such outcome, operational changes and a better use of marketing budgets can be made by those companies who choose to use data analysis.
 
 
 ## Data Source
