@@ -16,7 +16,7 @@ The Data was provided by Kaggle. Data-size for training data set = 1,468,195 KB;
 However, imbedded in a few of the columns are json scripts (objects). These had to pulled out for exploration then joined to the data frame. Within the total column (a json object) contained our label referred to as transactionRenue. This variable is what we use to predict on our testing data.
 
 ## Exploratory Data Analysis
-Dropped Columns I looked at each column closely and columns that had consistently the same value for each observation or didn't seem to place much relevance or had the same data present in another column were dropped. Such columns include:
+I carefully examined each column closely and columns that had consistently the same value for each observation or didn't seem to place much relevance or had the same data present in another column were dropped. Such columns include:
 
 ['browserSize', 'browserVersion', 'flashVersion', 'language', 'mobileDeviceBranding', 'mobileDeviceInfo', 'mobileDeviceMarketingName', 'mobileDeviceModel', 'mobileInputSelector', 'operatingSystemVersion', 'screenColors', 'screenResolution', 'visits','adwordsClickInfo', 'campaignCode','socialEngagementType','networkLocation', 'longitude', 'latitude', 'cityId', 'metro', 'country', 'region', 'subContinent', 'isMobile', 'medium']
 
@@ -26,8 +26,17 @@ Filled all Nan's with -999 for categorical variables and numerical variables wit
 For each column that has a json script imbeded, I transform them into a data frame. For example df['totals']. Once the column has been turned into a data frame. some more EDA is done by deleting columns that would play any effect on our model either because its the same for all rows or completely empty or has no value. After EDA, this column is added to the main data frame while the previous json column is dropped to avoid any duplicates. The total column is illustrated below.
 
 
+## Models
 
+First I began with a simple Linear Regression model using the totals dataframe (column). The result was a very poor score. 
 
+`(~ 0.025320 for train, 0.027986  for test)`
+
+Based on the perfomance of our model, we see that while there is a bit of underfitting going on, our score shows that we have quite a bit of room to improve on. A quick RMSE metric showed us how poorly our model was doing with an approximate score of `52.933 for training and 49.474 for testing`. For RMSE, the closer you are to 0 the better.
+
+After trying a couple more models with both numerical and categorical variables, the best model that seem to perform the best so far was Extra Trees Regressor and Gradient Boosting Regressor with very little overfitting. The scores from gradient boosting was `(approximately 0.99993 for train and 0.99183 test data)` 
+
+RMSE score for gradient boosting was approximately 0.417 for training and 4.533 for testing. A much better improvement from our first base model.
 
 ## Summary
 - We began with trying to predict the how much customers will spend at a gStore.
