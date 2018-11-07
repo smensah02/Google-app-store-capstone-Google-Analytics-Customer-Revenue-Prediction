@@ -9,7 +9,7 @@ RStudio, the developer of free and open tools for R and enterprise-ready product
 In this competition, We are challenged to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. Hopefully, the outcome will be more actionable operational changes and a better use of marketing budgets for those companies who choose to use data analysis on top of GA data. https://www.kaggle.com/c/ga-customer-revenue-prediction
 
 ## Problem Statement 
-Predicting How Much a Customer Would Spend at a GStore. With such outcome, operational changes and a better use of marketing budgets can be made by those companies who choose to use data analysis.
+> Predicting How Much a Customer Would Spend at a GStore. With such outcome, operational changes and a better use of marketing budgets can be made by those companies who choose to use data analysis.
 
 
 ## Data Source
@@ -33,17 +33,17 @@ First I began with a simple Linear Regression model using the totals dataframe (
 
 `(~ 0.025320 for train, 0.027986  for test)`
 
-Based on the perfomance of our model, we see that while there is a bit of underfitting going on, our score shows that we have quite a bit of room to improve on. A quick RMSE metric showed us how poorly our model was doing with an approximate score of `52.933 for training and 49.474 for testing`. For RMSE, the closer you are to 0 the better.
+Based on the perfomance of our model, we see that while there is a bit of underfitting going on, our score shows that we have quite a bit of room to improve on. A quick RMSE metric showed us how poorly our model was doing with an approximate score of `52.933 for training and 49.474 for testing`. For RMSE, a metric that can be used to show how accurate your model is doing, the closer you are to 0 the better.
 
 After trying a couple more models with both numerical and categorical variables, the best model that seem to perform the best so far was Extra Trees Regressor and Gradient Boosting Regressor with very little overfitting. The scores from gradient boosting was `(approximately 0.99993 for train and 0.99183 test data)` 
 
-RMSE score for gradient boosting was approximately 0.417 for training and 4.533 for testing. A much better improvement from our first base model.
+RMSE score for gradient boosting was approximately `0.417 for training and 4.533 for testing`. A much better improvement from our first base model.
 
 ## Summary
 - We began with trying to predict the how much customers will spend at a gStore.
 - We analyze our data, performed some EDA and dropped the necessary columns.
 - We tried predicting just on numerical columns and found that to be adequately lacking; we then tried predicting on all remaining columns, both numerical and categorical coloumns, and found that our model performed much better. 
-- Though we are scoring at 99% on some of our models, we realize that there is still room for improvement.
+- Though we are scoring at `99%` on some of our models, we realize that there is still a bit of room for improvement.
 
 ## Take Away
-> **We could potentially use this model to predict how much a customer will spend on any ecommerce store with similar data collection.**
+> **We could potentially use this model to predict how much a customer will spend on any store with google analytic softwares.**
